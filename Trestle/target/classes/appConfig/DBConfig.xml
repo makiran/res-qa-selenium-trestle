@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DBList>
+	<DBType type="hsql" driver="org.hsqldb.jdbcDriver" >
+		<DB name="dev" userName="sa" password="" url="jdbc:hsqldb:file:C:\workspace\NetBean\hsqlbd\test" driver="org.hsqldb.jdbcDriver"/>
+	</DBType>
+	<DBType type="derby" driver="org.apache.derby.jdbc.ClientDriver" >
+		<DB name="dev" userName="app" password="app" url="jdbc:derby://localhost:1527/bookshop" driver=""/>
+	</DBType>
+</DBList>

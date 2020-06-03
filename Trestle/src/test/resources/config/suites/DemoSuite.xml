@@ -1,0 +1,44 @@
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests" verbose="3">
+
+	<!--  <test name="TrestleSmokeTestingServer1">
+		<parameter name="tool" value="keyword" />
+		<parameter name="env" value="server1" />
+		<parameter name="user" value="Admin" />
+		<parameter name="includeScenarios" value="Trestle_Server_Smoke" />
+	</test>
+	 <test name="TrestleSmokeTestingServer2">
+		<parameter name="tool" value="keyword" />
+		<parameter name="env" value="server2" />
+		<parameter name="user" value="Admin" />
+		<parameter name="includeScenarios" value="Trestle_Server_Smoke" />
+	</test>	
+	<test name="TrestleSmokeTestingServer3">
+		<parameter name="tool" value="keyword" />
+		<parameter name="env" value="server3" />
+		<parameter name="user" value="Admin" />
+		<parameter name="includeScenarios" value="Trestle_Server_Smoke" />
+	</test>
+	<test name="TrestleSmokeTestingServer4">
+		<parameter name="tool" value="keyword" />
+		<parameter name="env" value="server4" />
+		<parameter name="user" value="Admin" />
+		<parameter name="includeScenarios" value="Trestle_Server_Smoke" />
+	</test>  -->
+	 <test name="TrestleSmokeTesting">
+		<parameter name="tool" value="keyword" />
+		<parameter name="env" value="prod" />
+		<parameter name="user" value="ProdMlo" />
+		<parameter name="includeScenarios" value="Trestle_Smoke" />
+	</test> 
+	<!-- <test name="TrestleSmokeTesting">
+		<parameter name="tool" value="keyword" />
+		<parameter name="user" value="StageMlo" />
+		<parameter name="includeScenarios" value="Trestle_Smoke_Stage" />
+	</test> -->
+	<!-- <test name="TrestleRegressionTesting">
+		<parameter name="tool" value="keyword" />
+		<parameter name="user" value="StageMlo" />
+		<parameter name="includeScenarios" value="Trestle_Regression" />
+	</test>	 -->
+</suite>

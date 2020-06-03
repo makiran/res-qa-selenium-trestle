@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user name="ProdMlo">
+		<userID>smkmlo@corelogic.com</userID>
+		<password>Prod$m0k3</password>
+	</user>
+	<user name="ProdTp">
+		<userID>smktp@corelogic.com</userID>
+		<password>Prod$m0k3</password>
+	</user>
+	<user name="StageAdmin">
+		<userID>CognizantQA@corelogic.com</userID>
+		<password>!nS1ght784</password>
+	</user>
+	<user name="ProdAdmin">
+		<userID>CognizantQA@corelogic.com</userID>
+		<password>!nS1ght784</password>
+	</user>
+	<user name="StageMlo">
+		<!-- <userID>smkmlo@corelogic.com</userID> -->
+		<!-- <userID>svstagemlo@mailinator.com</userID> -->
+		<!-- <password>Prod$m0k3</password> -->
+		<userID>AutoQAmlo@mailinator.com</userID>
+		<password>Monday$1</password>
+	</user>
+	<user name="StageTp">
+		<!-- <userID>smktp@corelogic.com</userID> -->
+		<userID>AutoQATp@mailinator.com</userID>
+		<password>Monday$1</password>
+	</user>
+		
+</users>
